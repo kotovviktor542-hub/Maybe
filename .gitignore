@@ -1,0 +1,28 @@
+# Godot 4+
+.godot/
+/android/
+export_presets.cfg.local
+
+# Imported assets
+*.import.bak
+
+# Build outputs
+build/
+dist/
+out/
+*.apk
+*.aab
+*.tmp
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Keystores
+*.keystore
+*.jks
+
+# Godot import metadata (регенерируется при --import)
+*.import
